@@ -1,2 +1,2 @@
-# P8_Network_Performance
-A Web-based Dashboard that Visualizes Real-time Network Performance Data.
+# Circuit Analysis
+[Lab 1 - Non-Inverting Amplifier](./Lab1.md)
