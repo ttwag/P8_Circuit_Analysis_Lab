@@ -5,7 +5,7 @@
 
 2. Compare the **Gain** of the Op-Amp circuit with hand-calculated result, the simulation, and the observed waveform in the oscilloscope.
 
-## Circuit
+## The Non-Inverting Amplifier Circuit
 ![Figure1](./images/Figure1.png)
 
 ## Equipment
