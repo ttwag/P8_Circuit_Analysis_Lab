@@ -100,7 +100,9 @@ $$
 
 
 ## OrCAD Simulation
+
 ![Figure20](./images/Figure20.png)
+
 Correction: the $V_1$ in the image should be $V_s$
 
 | Frequency (Hz) | $V_1$ (V)  | $I_1$ (A)     | Time Difference (Δt) (µs) | Phase Difference (Φ) (Degree) | Re(Zeq) (Ω) | Im(Zeq) (Ω) | Inductive or Capacitive? |
