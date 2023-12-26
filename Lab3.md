@@ -103,8 +103,6 @@ $$
 
 ![Figure20](./images/Figure20.png)
 
-Correction: the $V_1$ in the image should be $V_s$
-
 | Frequency (Hz) | $V_1$ (V)  | $I_1$ (A)     | Time Difference (Δt) (µs) | Phase Difference (Φ) (Degree) | Re(Zeq) (Ω) | Im(Zeq) (Ω) | Inductive or Capacitive? |
 |---------------:|--------:|-----------:|---------------------------:|------------------------------:|------------:|------------:|-------------------------:|
 | 100            | 0.802   | 0.00802    | 65.5                       | 2.4                           | 1246.9      | 52.3        | Inductive                |
@@ -113,9 +111,9 @@ Correction: the $V_1$ in the image should be $V_s$
 | 2000           | 0.947   | 0.000947   | -22.6                      | -16.3                         | 1056        | -309        | Capacitive               |
 
 Note:
-1. $I_1 = \frac{V_1}{Z_eq}$
-2. Since $V_s$ has no phase angle, if $Z_eq$ has a positive phase angle, $I_1$ will have a negative phase angle, vice versa.
-3. Phase difference is $\phi$. A positive phase difference means that $V_s$ leads $I_1$, and a negative phase difference means $I_1$ leads $V_1$. 
+1. $I_1 = \frac{V_1}{Z_{eq}}$
+2. The circuit is inductive if $I_1$ lags $V_1$, and capacitive if $I_1$ leads $V_1$.
+3. Since $V_1$ has no phase angle, if $Z_{eq}$ has a positive phase angle, $I_1$ will have a negative phase angle, vice versa.
 4. $\phi = (\Delta t)(Frequency)(360 \space degrees)$, where $\Delta t$ is the time difference between waveforms, which were calculated by placing two cursors on the Time-intercept of the two waveforms and looking at the Y1 - Y2 time difference.
 
 5. Y1 Cursor Always on Red V1 Waveform, Y2 Cursor Always on Green Vs Waveform
