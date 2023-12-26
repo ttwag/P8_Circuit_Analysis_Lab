@@ -18,6 +18,7 @@ transient and steady state responses of time-dependent circuits.
 * Signal Generator
 
 ## Hand-Calculation
+
 $V_{out} = f(x)$
 
 ![Figure59](./images/Figure59.png)
