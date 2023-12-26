@@ -18,11 +18,12 @@
 * Signal Generator
 
 ## Hand Calculation
-Transform the RLC circuit into the phasor domain to get the imedance, then combine the impedance of the inductor and resistor in series.
+Transform the RLC circuit into the phasor domain to get the imedance, then combine the impedance of the inductor and resistor in series, capacitor in parallel, and 1 kΩ resistor in series
 
 ![Figure19](./images/Figure19.png)
 
 Given: 
+
 $$
 \begin{align*}
 R_1 &= 1000\,\Omega \\
@@ -34,6 +35,7 @@ $$
 
 
 The equivalent impedance, $Z_{eq}$, is calculated as:
+
 $$
 \begin{align*}
 Z_{eq} &= \frac{(\frac{-j}{\omega C})(R_2 + j\omega L)}{R_2 + j\omega L - \frac{-j}{\omega C}} + R_1 \\
@@ -46,6 +48,7 @@ $$
 
 
 Simplify the $Z_{eq}$ to:
+
 $$
 \begin{equation*}
 Z_{eq} = \frac{a + jb}{c + jd}
@@ -53,6 +56,7 @@ Z_{eq} = \frac{a + jb}{c + jd}
 $$
 
 Here
+
 $$
 \begin{align*}
 a &= R_1 + R_2 - R_1 \omega^2 LC\\
@@ -63,6 +67,7 @@ d &= \omega CR_2 \\
 $$
 
 To further simplify the complex fraction, multiply the numerator and the denominator by the conjugate of the denominator:
+
 $$
 \begin{equation*}
 Z_{eq} = \frac{(a + jb)(c - jd)}{(c + jd)(c - jd)} = \frac{ac + bd + j(bc - ad)}{c^2 + d^2}
@@ -70,13 +75,17 @@ Z_{eq} = \frac{(a + jb)(c - jd)}{(c + jd)(c - jd)} = \frac{ac + bd + j(bc - ad)}
 $$
 
 This results in a real part $Re$ and an imaginary part $Im$ of the equivalent impedance:
+
 $$
 Z_{eq} = Re + jIm
 $$
+
 where
+
 $$
 Re = \frac{ac + bd}{c^2 + d^2} 
 $$
+
 $$
 Im = \frac{bc - ad}{c^2 + d^2} 
 $$
