@@ -52,7 +52,8 @@
 ![Figure37](./images/Figure37.png)
 
 ## Real-World Measurement
-* Ain = peak to peak value of the input voltage Aout = peak to peak value of the output voltage
+* Ain = peak to peak value of the input voltage 
+* Aout = peak to peak value of the output voltage
 * $|H(j\omega)|$ = $\frac{A_{out}}{A_{in}}$
 * $|H(j\omega)|(dB) =20log(|H(j\omega)|)$
 * td = Channel 1 (Ain) Time - Channel 2 (Aout) Time 
