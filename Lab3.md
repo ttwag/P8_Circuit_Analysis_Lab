@@ -116,7 +116,7 @@ Note:
 3. Since $V_1$ has no phase angle, if $Z_{eq}$ has a positive phase angle, $I_1$ will have a negative phase angle, vice versa.
 4. $\phi = (\Delta t)(Frequency)(360 \space degrees)$, where $\Delta t$ is the time difference between waveforms, which were calculated by placing two cursors on the Time-intercept of the two waveforms and looking at the Y1 - Y2 time difference.
 
-5. Y1 Cursor Always on Red V1 Waveform, Y2 Cursor Always on Green Vs Waveform
+5. Y1 Cursor Always on Red $I_1$ Waveform, Y2 Cursor Always on Green $V_1$ Waveform
 
 ### $f = 100 Hz$
 ![Figure21](./images/Figure21.png)
