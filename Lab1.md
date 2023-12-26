@@ -7,6 +7,7 @@
 
 ## The Non-Inverting Amplifier Circuit
 ![Figure1](./images/Figure1.png)
+Note that the op-amp needs Vcc+ and Vcc- as the power supply.
 
 ## Equipment
 ### Simulation
@@ -73,4 +74,3 @@ The same circuit built on a breadboard. The oscilloscope probe connected to the 
 
 We hand-calculated the gains of the op-amp with different potentiometer values from Vo/Vs, where Vs is the 200mV input. In the lab, we simulated and constructed the circuit, collected the Vo, and calculated the gain. Finally, we compared the hand-calculated result, simulation result and measurement result. 
 
-Note that the op-amp needs Vcc+ and Vcc- as the power supply.
