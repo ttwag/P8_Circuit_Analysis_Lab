@@ -30,6 +30,11 @@ $V_{out} = f(x)$
 | Time to Reach the Minima | 0.67 ms  |
 
 ## Simulation
+Instead of adding a switch in the simulation, we modeled the input voltage as a step function that supplies voltage until 3 ms. Note that the circuit has reached steady-state before 3 ms.
+
+Therefore, treat 3ms as the t = 0 in simulation.
+
+![Figure66](./images/Figure66.png)
 
 | $V_{out}(t)$                                  | Pre-Lab Calculation | Simulation |
 |-----------------------------------------------|-------------------:|-----------:|

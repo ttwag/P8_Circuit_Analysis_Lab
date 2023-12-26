@@ -113,16 +113,19 @@
 ![Figure46](./images/Figure46.png)
 
 ### Low-Pass Filter at 200 Hz
+The yellow wave is the input, and the green wave is the output
 
 ![Figure47](./images/Figure47.png)
 ![Figure48](./images/Figure48.png)
 
 ### High-Pass Filter at 200 Hz
+The yellow wave is the input, and the green wave is the output
 
 ![Figure49](./images/Figure49.png)
 ![Figure50](./images/Figure50.png)
 
 ### Band-Pass Filter at 16 kHz
+The yellow wave is the input, and the green wave is the output
 
 ![Figure51](./images/Figure51.png)
 ![Figure52](./images/Figure52.png)
