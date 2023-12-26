@@ -143,6 +143,8 @@ Note:
 Note: 
 1. Cursor X2 measures the math waveform
 2. Cursor X1 measures the chanel 1 waveform
+3. $I_1$ is the purple waveform.
+4. $V_1$ is the yellow waveform.
 
 ### $f = 100 Hz$
 ![Figure26](./images/Figure26.png)
