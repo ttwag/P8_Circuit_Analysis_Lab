@@ -1,4 +1,4 @@
-# Lab 4 - Passive Filter
+# Lab 4 - Passive Filters
 
 ## Objective
 1. Construct passive low-pass, high-pass, and band-pass filters with resistor, capacitor, and inductor.
@@ -13,6 +13,7 @@
 ![Figure32](./images/Figure32.png)
 ### Band-Pass Filter
 ![Figure33](./images/Figure33.png)
+
 ## Equipment
 ### Simulation
 * Cadence OrCAD for simulation
